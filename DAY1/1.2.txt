@@ -1,0 +1,20 @@
+calc 1.2 day 1
+
+#include<stdio.h>
+int main ()
+{
+    int num1, num2, Sum, Difference, Product, Quotient;
+    printf("Enter two numbers :");
+    scanf("%d %d", &num1, &num2);
+
+    Sum = num1 + num2;
+    Difference = num1 - num2;
+    Product = num1*num2;
+    Quotient = num1 / num2;
+
+    printf("Sum = %d\n", Sum);
+    printf("Difference = %d\n", Difference);
+    printf("Product = %d\n", Product);
+    printf("Quotient = %d\n", Quotient);
+    return 0;
+}
